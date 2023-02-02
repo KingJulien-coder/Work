@@ -1,0 +1,23 @@
+{%extends 'base.html'%}
+
+{%block body%}
+<h1>Welcome to ToKa Fitness, {{username}}</h1>
+<div class="dashboard_menu">
+    <div class="main_menu">
+        <a href="/videos"><button>Videos</button></a><br>
+        <a href="/routines"><button>Customized routines and diets</button></a>
+    </div>
+    <div class="main_menu2">
+        <a href="/media"><button>Fitness Media</button></a>
+        <a href="/membership"><button>Memberships</button></a>
+        <br>
+        <a href="/logout" class="btn btn-primary btn-sm">Logout</a>
+    </div>
+    {% for imgs in randomimg %}
+    <div class="picture">
+        <img src="static/{{img}}" alt="{{imgL}}" style="width:100%">
+    </div>
+</div>
+
+{% endfor %}
+{%endblock%}

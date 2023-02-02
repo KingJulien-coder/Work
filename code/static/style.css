@@ -1,0 +1,87 @@
+.mainBody{
+    padding: 0;
+    background-color: #A5FFD6;
+    height: 977;
+}
+
+.container a{
+    left: 50;
+    bottom: 50;
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+
+.main_menu{
+    text-align: center;
+}
+
+.main_menu button{
+    background-color: #FFA69E;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.main_menu2{
+    text-align: center;
+}
+
+.main_menu2 button{
+    background-color: #FFA69E;
+    padding: 25px 60px;
+    margin-top: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.memberships_list{
+    background-color: #FFA69E;
+}
+
+
+.dashboard_menu{
+    background-color: #72ffbf;
+    height: 700px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.loginPage{
+    background-color: #A5FFD6;
+    height: 977px;
+}
+
+.loginPage a{
+    margin-left: 20px;
+}
+
+.loginPage h1{
+    background-color: #72ffbf;
+}
+
+.registerTitle{
+    background-color: #A5FFD6;
+}
+
+.registerTitle h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    background-color: #72ffbf; 
+}

@@ -11,3 +11,7 @@ Quillbot – paraphrasing tool
 Moo ict – help with python 
 
 GIThub – help with python 
+
+
+Cool slider:
+<iframe height="364px" width="100%" src="https://www.ons.gov.uk/visualisations/dvc413/sliders/physicalactivity/index.html"></iframe>

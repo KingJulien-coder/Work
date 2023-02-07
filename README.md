@@ -12,9 +12,7 @@ Moo ict – help with python
 
 GIThub – help with python 
 
-Ons.gov.uk
-
-
+Ons.gov.uk - nice idea for slider
 
 
 Cool slider:

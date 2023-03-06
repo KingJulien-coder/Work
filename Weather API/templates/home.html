@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+</head>
+<body>
+html_data = f"""
+    <table border="1">
+        <tr>
+            <td>country_code</td>
+            <td>coordinate</td>
+            <td>temperature</td>
+            <td>pressure</td>
+            <td>humidity</td>
+        </tr>
+        <tr>
+            <td>{str(list_of_data['sys']['country'])}</td>
+        <td>{str(list_of_data['coord']['lon']) + ' ' 
+                    + str(list_of_data['coord']['lat'])}</td>
+        <td>{str(list_of_data['main']['temp']) + 'k'}</td>
+        <td>{str(list_of_data['main']['pressure'])}</td>
+        <td>{str(list_of_data['main']['humidity'])}</td>
+        </tr>
+
+    </table>
+""""
+</body>
+</html>
